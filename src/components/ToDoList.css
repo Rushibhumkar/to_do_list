@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list_inline{
+    display: flex;
+    flex-direction: row;
+
+}
+.material-symbols-outlined{
+position: sticky;
+right: 0;
+cursor: pointer;
+}
+.list_inline span:hover{
+    background-color: rgb(177, 81, 81);
+    border-radius: 5px;
+}
+.list_inline li{
+    margin-left: 5px;
+}
